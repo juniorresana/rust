@@ -1,0 +1,15 @@
+[package]
+name = "hello-rocket--bin"
+version = "0.1.0"
+authors = ["user"]
+edition = "2018"
+
+[dependencies]
+rocket = "0.4.2"
+serde = { version = "1.0.99", features = ["derive"] }
+
+rocket_contrib = "0.4.2"
+
+image = "0.18.0"
+openssl = { version = "0.10", features = ["vendored"] }
+reqwest = "0.9.20"
